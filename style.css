@@ -1,0 +1,113 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: #AF8FAF;
+}
+
+#kaonsahi {
+    position: relative;
+}
+
+#head {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 150px 150px 0 0;
+}
+
+#mask {
+    width: 105px;
+    height: 150px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 200px;
+    top: 20px;
+    left: 23px;
+}
+
+#mask-tears {
+    width: 84px;
+    height: 115px;
+    position: relative;
+    background-color: #AF8FAF;
+    border-radius: 96px / 140px;
+    top: 17px;
+    left: 10px;
+}
+
+#mask-middle {
+    width: 60px;
+    height: 119px;
+    position: relative;
+    background-color: #FFFFFF;
+    left: 12px;
+}
+
+.under-eye {
+    height: 21px;
+    position: absolute;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #000000;
+    bottom: 61px;
+    border: solid 5px #FFFFFF;
+}
+
+#under-left-eye {
+    left: 2px;
+}
+
+#under-right-eye {
+    right: 2px;
+}
+
+.eye {
+    height: 13px;
+    position: absolute;
+    width: 20px;
+    border-radius: 20px / 13px;
+    background-color: #000000;
+    left: -7px;
+    bottom: 3px;
+    border: solid 7px #FFFFFF;
+}
+
+#under-mouth {
+    height: 13px;
+    position: relative;
+    width: 25px;
+    border-radius: 30px / 13px;
+    background-color: #AF8FAF;
+    left: 42px;
+    top: 13px;
+}
+
+#mouth {
+    bottom: 15px;
+    height: 13px;
+    position: relative;
+    border: 5px solid #FFFFFF;
+    width: 34px;
+    border-radius: 30px / 13px;
+    background-color: #000000;
+    right: 10px;
+}
+
+#body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(175, 143, 175, 1) 100%);
+    width: 150px;
+    height: 350px;
+}
